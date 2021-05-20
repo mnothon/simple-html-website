@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        img {
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+        }
+        div {
+            border: 1px dashed black;
+            width: 300px;
+            height: 200px;
+            float: left;
+            padding: 10px;
+            margin: 15px;
+        }
+        #dimensions {
+            color: red;
+        }
+        #performance {
+            color: green;
+        }
+        #economy {
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my website</h1>
+    <img src="my-car.jpg">
+    <div id="dimensions">
+        <h2>Dimensions</h2>
+        <ul>
+            <li>width: 3m</li>
+            <li>height: 1.5m</li>
+            <li>weight: 3000kg</li>
+        </ul>
+    </div>
+    <div id="performance">Performance</div>
+    <div id="economy">Fuel Economy</div>
+    <script>
+        document.getElementById('economy').innerHTML='Economy';
+        var num1 = 1;
+        num1 = num1 + 1;
+        console.log('num1 = ', num1);
+        num1 = 'tuesday';
+        console.log('num1 = ', num1);
+    </script>
+</body>
+</html> 
